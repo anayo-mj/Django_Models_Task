@@ -22,13 +22,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='post',
             name='Created_date',
-            field=models.DateTimeField(default='Old User'),
+            field=models.DateTimeField(default='2022-3-23'),
             preserve_default=False,
         ),
         migrations.AddField(
             model_name='post',
             name='Published_date',
-            field=models.DateTimeField(default=12),
+            field=models.DateTimeField(default='2022-3-23'),
             preserve_default=False,
         ),
     ]
